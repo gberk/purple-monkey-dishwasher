@@ -9,6 +9,22 @@ var color = [
     "black",
     "purple",
     "magenta",
+    "almond",
+    "rose",
+    "amber",
+    "aqua",
+    "beige",
+    "crimson",
+    "lavender",
+    "fuchsia",
+    "gold",
+    "silver",
+    "indigo",
+    "jade",
+    "khaki",
+    "mauve",
+    "taupe",
+
     
 ];
 
@@ -29,7 +45,51 @@ var animal = [
     "cheetah",
     "jaguar",
     "panther",
-    "puma"
+    "puma",
+    "ocelot",
+    "grouse",
+    "hen",
+    "rooster",
+    "chicken",
+    "penguin",
+    "salmon",
+    "tuna",
+    "sparrow",
+    "pigeon",
+    "ferret",
+    "aardvark",
+    "albatross",
+    "alligator",
+    "anteater",
+    "armadillo",
+    "baboon",
+    "badger",
+    "barracuda",
+    "bat",
+    "bee",
+    "butterfly",
+    "camel",
+    "buffalo",
+    "crocodile",
+    "duck",
+    "elephant",
+    "fox",
+    "coyote",
+    "gnat",
+    "gazelle",
+    "gorilla",
+    "hamster",
+    "rabbit",
+    "ibex",
+    "jellyfish",
+    "emu",
+    "lobster",
+    "crab",
+    "trilobite",
+    "squid",
+    "anglerfish",
+    "hermit crab",
+    "sponge"
 ];
 
 var appliance = [
@@ -42,7 +102,24 @@ var appliance = [
     "television",
     "radio",
     "refrigerator",
-    "cabinet"
+    "cabinet",
+    "washcloth",
+    "towel",
+    "dryer",
+    "washing machine",
+    "ironing board",
+    "garment steamer",
+    "toothpaste",
+    "robot vacuum",
+    "vacuum",
+    "plunger",
+    "bath mat",
+    "laptop",
+    "cell phone",
+    "sattelite",
+    "sponge",
+    "ottoman",
+    "couch"
 ]
 
 var random = function(array){
@@ -55,5 +132,4 @@ var PurpleMonkeyDishwasher = function(){
     var randAppliance = random(appliance);
     return randColor + " " + randAnimal + " " + randAppliance
 }
-console.log(PurpleMonkeyDishwasher())
 module.exports = PurpleMonkeyDishwasher;
